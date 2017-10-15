@@ -1,0 +1,29 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Launch via NPM",
+            "runtimeExecutable": "npm",
+            "runtimeArgs": [
+                "run-script",
+                "dev"
+            ],
+            "port": 5858
+        },
+        {
+            "name": "Debug",
+            "type": "chrome",
+            "request": "launch",
+            "webRoot": "${workspaceRoot}",
+            "url": "http://localhost:8080",
+            "sourceMaps": true,
+            "runtimeArgs": [
+                "--new-window",
+                "--remote-debugging-port=9222"
+            ],
+            "userDataDir": "${workspaceRoot}/.vscode/chrome"
+        }
+    ]
+}
