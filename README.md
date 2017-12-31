@@ -1,4 +1,6 @@
 # TypeScript front-end starter
+[![Build Status](https://travis-ci.org/d-luk/ts-frontend-starter.svg?branch=master)](https://travis-ci.org/d-luk/ts-frontend-starter) [![dependencies Status](https://david-dm.org/d-luk/ts-frontend-starter/status.svg)](https://david-dm.org/d-luk/ts-frontend-starter)
+
 A basic template to quickly get started with a client-only web application using TypeScript.
 
 ## Features
