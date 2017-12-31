@@ -1,16 +1,22 @@
 # TypeScript front-end starter
-A basic template to quickly get started with a client-only website using TypeScript.
+A basic template to quickly get started with a client-only web application using TypeScript.
 
-## Out of the box features
-- [TypeScript](https://www.typescriptlang.org/) to optimized JavaScript
-- [PugJS](https://pugjs.org) to minified HTML
-- [Sass](http://sass-lang.com/) to optimized CSS
-- Live reloading using [Browsersync](https://www.browsersync.io/)
+## Features
+No configuration needed. All works out of the box!
+
+- Automatic transpiling:
+    - [TypeScript](https://www.typescriptlang.org/) to optimized JavaScript
+    - [PugJS](https://pugjs.org) to minified HTML
+    - [Sass](http://sass-lang.com/) to optimized CSS
+    - Including source maps!
+- Live reloading using [BrowserSync](https://www.browsersync.io/)
 - Continuous Integration using [TravisCI](https://travis-ci.org/)
 - TypeScript linting with [TSLint](https://palantir.github.io/tslint/)
-- Source maps
 
 ## Getting started
 1. Run [`yarn`](https://yarnpkg.com/) to install the dependencies
 2. Run `yarn run dev` to start developing
-3. That's it. I told you it would be quick.
+3. Make changes to the `src` files and watch the page update automagically
+
+## Ready to deploy
+Run `yarn run build` and a production ready version of your code will be available in the `dist` folder.

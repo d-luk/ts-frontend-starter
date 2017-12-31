@@ -1,4 +1,4 @@
-import Greeter from './scripts/greeter';
+import Greeter from './greeter';
 
 const greeter = new Greeter('world');
 
